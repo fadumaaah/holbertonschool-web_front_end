@@ -138,7 +138,6 @@ a:active {
 .footer {
   padding: var(--footer-padding);
 }
-
 .navbar-menu {
   float: right;
 }
@@ -148,26 +147,19 @@ a:active {
   padding: 0;
   list-style: none;
   text-align: center;
-  font-size: var(--nav-item-font-size);
-}
-
-.nav-item {
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size);
-  letter-spacing: var(--nav-item-letter-spacing);
-  display: var(--nav-item-display);
-  margin: var(--nav-item-margin);
-}
-
-.nav .nav-item {
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
 }
 
 .nav,
 .nav-item {
   font-size: var(--nav-item-font-size);
+}
+
+.nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
 }
 
 .nav-link {
