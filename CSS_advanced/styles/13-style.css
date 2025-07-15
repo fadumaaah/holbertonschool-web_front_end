@@ -53,9 +53,21 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
-a {
+a[href] {
   color: var(--text-color);
   text-decoration: none;
+}
+
+a:visited {
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
