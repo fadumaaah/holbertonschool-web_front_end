@@ -151,15 +151,16 @@ a:active {
 }
 
 .nav .nav-item {
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size);
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-medium);
   letter-spacing: var(--nav-item-letter-spacing);
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
+.nav,
+.nav-link {
   display: block;
   padding: 0.5em 1em;
 }
